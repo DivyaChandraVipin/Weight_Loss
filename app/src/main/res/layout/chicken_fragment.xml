@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:textSize="30dp"
+            android:text="Chicken"
+            android:id="@+id/txtChicken"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorBlack"/>
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/chicken"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/chicken"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:id="@+id/txtViewChicken"
+            android:textColor="@color/colorBlack"
+            android:text="Skinless chicken breasts are a traditional backbone of  healthy weight-loss plans.Because chicken has no carbs and just 5 g of fat per 3- to 4-oz. serving, many dieters rely primarily on chicken
+              for their protein needs.Whether you prefer the breast or a skinless thigh or leg -- which are similar in low-fat content -- chicken is an excellent source of lean protein and has essential nutrients, including iron and zinc.
+"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

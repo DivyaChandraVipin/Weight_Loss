@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:textSize="30dp"
+            android:text="Tuna"
+            android:id="@+id/txtViewHead"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorBlack"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tunafood"
+            android:scaleType="center"
+            android:id="@+id/tuna"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txtViewTuna"
+            android:text="Tuna boasts a reputation as a health food, and for good reason.It's loaded with essential nutrients that boost your overall health and well-being.It's also good for weight loss, thanks to its high protein content and relatively low calorie count.Serve your tuna with low-cal and low-fat mix-ins to promote weight loss, and choose low-mercury varieties of tuna as your healthiest option.3 ounces of light tuna, packed in water, is just 72 calories -- or 142 calories per can."
+            android:textSize="15sp"
+
+            android:textColor="@color/colorBlack"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

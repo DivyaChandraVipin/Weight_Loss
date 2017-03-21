@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back">
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:title="Magic GMDiet"
+        android:titleTextColor="@color/colorWhite"
+        android:foregroundTint="@color/colorWhite"
+        android:subtitleTextColor="@color/colorWhite"
+        android:titleTextAppearance="@anim/up_bottom"
+        android:id="@+id/toolbar"></android.support.v7.widget.Toolbar>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:src="@drawable/gm_dietplan"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="      The following diet and health program was developed for employees and dependents of General Motors.The General Motors Diet is a seven-day eating plan that has been reported to bring weight losses of 10 to 17 lbs. in a week.It will also improve your attitudes and emotions because of its cleansing systematic effects.The effectiveness of this seven day plan is that the food eaten burn more calories than they give to the body in caloric value "
+        android:layout_marginLeft="10dp"
+        android:id="@+id/txtViewGM"
+        />
+<Button
+    android:layout_width="50dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/button"
+    android:text="Go"
+    android:id="@+id/btnGo"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="300dp"/>
+</LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</ScrollView>
+
+
+
+
+
+
+

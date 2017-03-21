@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/seventhday"
+    >
+    <TextView
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Day 7"
+        android:textSize="20dp"
+        android:id="@+id/txtViewHead"
+        android:layout_marginLeft="10dp"/>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:src="@drawable/dayseven"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/txtViewSeventh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="\nDay 7 Diet Plan Chart:
+        \nBreakfast at 8.30 AM. Take one bowl of cantaloupes or melon with a glass of water.
+        \nMid-Morning Snack at 10.30 AM. Eat one cup of carrot sticks, frozen and fresh berries. And also 1 glass of water.
+        \nLunch at 12.00 Noon. Take a bowl of lightly sautéed vegetables. And 1 bowl of cooked brown rice along with 2 glasses of water.
+        \nAfternoon Snack at 4.00 PM. Take 1 pear or 1 apple and a glass of water.
+        \nEvening Snack at 6.30 PM. Take only 1 Guava and a glass of water.
+        \nDinner at 8.00 PM. Take a bowl of soup of mixed vegetable and 2 glasses of water."
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorBlack"
+        />
+
+
+
+
+
+</LinearLayout>
+    </ScrollView>

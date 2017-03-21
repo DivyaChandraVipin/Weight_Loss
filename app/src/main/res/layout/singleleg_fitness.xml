@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="10dp"
+        android:text="SingleLeg"
+        android:id="@+id/txtViewHead"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imgSingleLeg"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtViewSingleLeg"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:text="\n1.With a barbell across your shoulders, stand on top of an aerobic platform or on top of a 45lb plate.
+\n2.Step backward with your right foot and drop into the lunge position allowing your back knee to lightly touch the floor.
+ \n3.Then reverse the movement by returning to the platform.
+\n4.Alternate legs each time."/>
+</LinearLayout>
+</ScrollView>

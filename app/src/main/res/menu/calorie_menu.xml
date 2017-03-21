@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/txtName"
+        android:title="Sort By Name">
+        <menu>
+            <item android:title="Ascending"
+                android:id="@+id/menuNameAscending"></item>
+            <item android:title="Descending"
+                android:id="@+id/menuNameDescending"></item>
+
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/txtCalorieValue"
+        android:title="Sort By Calorie">
+        <menu>
+            <item android:title="Ascending"
+                android:id="@+id/menuCalorieAscending"></item>
+            <item android:title="Descending"
+                android:id="@+id/menuCalorieDescending"></item>
+
+        </menu>
+
+    </item>
+
+</menu>

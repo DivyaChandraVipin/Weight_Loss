@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="Pushp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="10dp"
+
+        android:id="@+id/txtViewHead"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgPushFitness"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtViewPushUp"
+        android:textColor="#000000"
+
+        android:text="\n1.Start on your hands and knees in table top position.
+ \n2.With your arms straight, your shoulders should be over your wrists and your hips should be over your knees
+\n 3. Bend your elbows and lower your upper body slowly to the ground
+\n 4. When your nose reaches the floor, press up with your arms and return to the starting position
+\n 5. Perform three sets of 8-10 reps."/>
+</LinearLayout>
+</ScrollView>

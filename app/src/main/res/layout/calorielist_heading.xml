@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="100dp"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_fragment"
+        android:name="assignment.android.acadgild.calorielist.CalorieListFragment"
+        />
+    <RelativeLayout
+
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+
+        android:id="@+id/fragmentcontainer"
+        ></RelativeLayout>
+
+</LinearLayout>

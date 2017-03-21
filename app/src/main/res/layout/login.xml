@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:title="Login"
+        android:titleTextColor="@color/colorWhite"
+        android:foregroundTint="@color/colorWhite"
+        android:subtitleTextColor="@color/colorWhite"
+        android:titleTextAppearance="@anim/up_bottom"
+        android:id="@+id/toolbar"></android.support.v7.widget.Toolbar>
+    <com.google.android.gms.ads.AdView
+
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/adView"
+        android:layout_marginTop="10dp"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        ads:adSize="BANNER"></com.google.android.gms.ads.AdView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <com.facebook.login.widget.LoginButton
+            xmlns:facebook="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/fb_login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:layout_marginLeft="15dp"
+
+            android:layout_marginBottom="0dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:id="@+id/btnSkip"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold"
+            android:background="@drawable/button"
+
+            android:textColor="@color/colorWhite"
+            android:text=">>Skip"/>
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+android:layout_marginTop="5dp"
+        android:layout_width="350dp"
+        android:layout_height="380dp"
+        android:id="@+id/viewPager"
+        >
+
+
+    </android.support.v4.view.ViewPager>
+    <me.relex.circleindicator.CircleIndicator
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/indicator"
+
+        android:layout_marginBottom="0dp"
+        ></me.relex.circleindicator.CircleIndicator>
+
+
+
+
+
+
+
+</LinearLayout>

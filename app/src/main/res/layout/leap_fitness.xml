@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leaps"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/txtViewHead"/>
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/imgLeap"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtViewLeaps"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:text="\n1.With legs together, jump from side to side, high and far enough to clear a basketball.
+        \n2.Squat on the landing and push off hard in the opposite direction for 30 leaps to each side
+ "/>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fifthday"
+   >
+    <TextView
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Day 5"
+        android:textSize="20dp"
+
+        android:id="@+id/txtViewHead"
+        android:layout_marginLeft="10dp"/>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:src="@drawable/dayfive"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/txtViewFifth"
+        android:text="\nDay 5 Diet Plan Chart:
+        \nBreakfast at 8.30 AM: Take a bowl of boiled red kidney beans, 2 tomatoes, lemon, and pepper. And also 2 glasses of water.
+        \nMid-Morning Snack at 10.30 AM :Take 2 glasses of water with a cup of curd or tofu.
+        \nLunch at 12.00 Noon : You can take 2 tomatoes, a cup of cooked Brown Rice, palak paneer. And also 2 glasses of water.
+        \nAfternoon Snack at 4.30 PM : Take sprouts salad with lemon juice, onions, and a pinch of salt and pepper. And also take 2 glasses of water.
+        \nDinner at 8.00 PM :Take vegetable soup, light Curry prepared from Soy Chunks. Cucumber and tomato salad prepared from 2 tomatoes, and 1cucumber. And 2 glasses of water."
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorBlack"
+
+        />
+
+
+
+
+</LinearLayout>
+    </ScrollView>

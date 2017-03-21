@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="BirdDog"
+        android:textColor="@color/colorBlack"
+
+        android:id="@+id/txtViewHead"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imgBirdDog"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtViewBirdDog"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:text="\n1. Start with on your hands under your shoulders and knees under your hips, while keeping your head, neck, and back straight
+\n2. Raise your right arm and reach it forward until it’s in line with your torso
+\n3. As you bring your arm forward, kick your left leg backwards until it’s straight and in line with your torso, hold for 1 second
+\n4. Slowly bring your arm and leg back to the ground and repeat with the opposite arm and leg
+ "/>
+</LinearLayout>
+</ScrollView>

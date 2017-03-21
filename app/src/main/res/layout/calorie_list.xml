@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back"
+    >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:title="Calorie List"
+        android:titleTextColor="@color/colorWhite"
+        android:foregroundTint="@color/colorWhite"
+        android:subtitleTextColor="@color/colorWhite"
+        android:titleTextAppearance="@anim/up_bottom"
+        android:id="@+id/toolbar"></android.support.v7.widget.Toolbar>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/imageViewCalorieList"
+        android:src="@drawable/callist"
+        />
+    <ListView
+        android:layout_marginTop="10dp"
+        android:id="@+id/simpleListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       />
+</LinearLayout>

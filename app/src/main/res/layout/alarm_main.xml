@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back"
+    >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:title="Set Reminder"
+        android:titleTextColor="@color/colorWhite"
+        android:foregroundTint="@color/colorWhite"
+        android:subtitleTextColor="@color/colorWhite"
+        android:titleTextAppearance="@anim/up_bottom"
+        android:id="@+id/toolbar"></android.support.v7.widget.Toolbar>
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="Enter Remainder Message"
+    android:id="@+id/editTextRemainder"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="30dp"/>
+
+    <TimePicker
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/alarmTimePicker"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+
+        android:scaleX="0.90"
+
+        android:scaleY="0.90"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+    <Button
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="Set alarm"
+
+        android:id="@+id/start_alarm"
+
+        android:onClick="startTimer"
+
+        android:layout_below="@+id/alarmText"
+        android:layout_marginLeft="80dp"
+        android:layout_alignParentLeft="true"
+        android:background="@color/colorGreen"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentStart="true" />
+
+
+
+    <Button
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:text="Unset alarm"
+
+        android:id="@+id/stop_alarm"
+        android:background="@color/colorGreen"
+        android:textColor="@color/colorWhite"
+
+
+        android:onClick="cancelTimer"
+
+        android:layout_below="@+id/alarmText"
+
+        android:layout_alignRight="@+id/alarmTimePicker"
+
+        android:layout_alignEnd="@+id/alarmTimePicker" />
+
+</LinearLayout>
+
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:text="Set the alarm clock!"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/alarmText"
+
+        android:layout_below="@+id/alarmTimePicker"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+

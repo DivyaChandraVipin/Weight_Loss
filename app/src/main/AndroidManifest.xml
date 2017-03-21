@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.acadgild.weightlossmagic">
+    <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
+    />
+    <meta-data android:value="true" android:name="ADMOB_ALLOW_LOCATION_FOR_ADS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/weight_magic"
+
+        android:label="Happy Weight Losing"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+       <meta-data
+           android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+
+
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".weighttips.WeightLossTips"
+            android:label="Weight Loss Tips" />
+        <activity
+            android:name=".fitness.HomeExcercise"
+            android:label="Enjoy Excercise" />
+        <activity
+            android:name=".fitness.BirdDog"
+            android:label="BirdDog" />
+        <activity
+            android:name=".fitness.Bridge"
+            android:label="Bridge" />
+        <activity
+            android:name=".fitness.Leaps"
+            android:label="Leaps" />
+        <activity
+            android:name=".fitness.PlankCrawl"
+            android:label="Plank Crawl" />
+        <activity
+            android:name=".fitness.PushUp"
+            android:label="Push Up" />
+        <activity
+            android:name=".fitness.SidePlank"
+            android:label="Side Plank" />
+        <activity
+            android:name=".fitness.SingleLeg"
+            android:label="SingleLeg" />
+        <activity
+            android:name=".fitness.Squats"
+            android:label="Squats" />
+        <activity
+            android:name=".fitness.Superman"
+            android:label="Superman" />
+        <activity
+            android:name=".fitness.WalkingLunges"
+            android:label="Walking Lunges" />
+        <activity
+            android:name=".reminder.AlarmActivity"
+            android:label="Alarm" />
+        <activity
+            android:name=".login.Login"
+            android:label="Login" />
+        <activity
+            android:name=".BMICalculator"
+            android:label="BMI Calculator" />
+        <activity
+            android:name=".CalorieCalculator"
+            android:label="Calorie Calculator" />
+        <activity
+            android:name=".Calender"
+            android:label="Calender" />
+        <activity
+            android:name=".GMDiet"
+            android:label="GM Diet" />
+        <activity
+            android:name=".LossWeight"
+            android:label="GM Diet" />
+        <activity
+            android:name=".LossWeightFragment"
+            android:label="GM Diet" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Home" />
+        <activity
+            android:name=".WeightLossFoods"
+            android:label="Weight Loss Foods" />
+        <activity
+            android:name=".losskgs.FirstDay"
+            android:label="First Day GM Diet" />
+        <activity
+            android:name=".losskgs.SecondDay"
+            android:label="Second Day GM Diet" />
+        <activity
+            android:name=".losskgs.ThirdDay"
+            android:label="Third Day GM Diet" />
+        <activity
+            android:name=".losskgs.FourthDay"
+            android:label="Fourth Day GM Diet" />
+        <activity
+            android:name=".losskgs.FifthDay"
+            android:label="Fifth Day GM Diet" />
+        <activity
+            android:name=".losskgs.SixthDay"
+            android:label="Sixth Day GM Diet" />
+        <activity
+            android:name=".losskgs.SeventhDay"
+            android:label="Seventh Day GM Diet" />
+        <activity
+            android:name=".CalorieList"
+            android:label="Calorie List" />
+        <activity
+            android:name=".calorielist.BabyFood"
+            android:label="Baby Food" />
+        <activity
+            android:name=".calorielist.Dairy"
+            android:label="Dairy" />
+        <activity
+            android:name=".calorielist.Fats"
+            android:label="Fats and Oils" />
+        <activity
+            android:name=".calorielist.Sweets"
+            android:label="Sweets" />
+        <activity
+            android:name=".calorielist.VariedBabyFormula"
+            android:label="Varied Baby Formula" />
+        <activity
+            android:name=".calorielist.Vegetables"
+            android:label="Vegetables" />
+     <activity
+         android:name=".calorietracker.CalorieTracker"
+         android:label="Calorie Tracker" />
+        <activity
+            android:name=".weeklytracker.WeeklyTracker"
+            android:label="Weekly Tracker" />
+        <activity
+            android:name=".changelanguage.ChangeLanguage"
+            android:configChanges="locale|orientation"
+            android:label="Weekly Tracker" />
+        <!--Include the AdActivity configChanges and theme. -->
+                <activity android:name="com.google.android.gms.ads.AdActivity"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+        android:theme="@android:style/Theme.Translucent" />
+        <receiver android:name=".reminder.Alarm_Receiver" />
+
+
+
+        <service android:name=".reminder.RingtonePlayingService"
+
+            android:enabled="true">
+
+        </service>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
+    </application>
+
+</manifest>

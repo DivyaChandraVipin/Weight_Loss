@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:textSize="30dp"
+            android:id="@+id/txtViewHead"
+            android:text="Beans and Legumes"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorBlack"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/legumes"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/beans"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="italic"
+            android:id="@+id/txtViewContent"
+            android:textColor="@color/colorBlack"
+            android:text="Beans are a welcome addition to weight-loss meal plans because they are packed with essential nutrients and help keep you feeling full for long periods of time.However, with the exception of green beans, which are not a legume like other beans, many beans are not necessarily low in calories.Eating them in moderation as part of a reduced-calorie meal plan will help you shed pounds."
+            />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

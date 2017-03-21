@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="Squats"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/txtViewHead"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imgSquat"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtViewSquats"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:text="\n1.Stand tall with your feet hip width apart and your arms down by your side
+\n2.Start to lower your body back as far as you can by pushing your hips back and bending your knees and pushing your body weight into your heels
+\n3.As you are lowering into the squat your arms will start to raise out in front of you for balance
+\n4.Keep a neutral spine at all times and never let your knees go over your toes
+\n5.The lower body should be parallel with the floor and your chest should be lifted at all times not rounded.
+\n6.Pause then lift back up in a controlled movement to the starting position "/>
+</LinearLayout>
+</ScrollView>

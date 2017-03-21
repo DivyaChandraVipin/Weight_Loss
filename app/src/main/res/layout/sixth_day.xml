@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sixthday"
+    >
+    <TextView
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Day 6"
+        android:textSize="20dp"
+        android:id="@+id/txtViewHead"
+        android:layout_marginLeft="10dp"/>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:src="@drawable/daysix"
+        android:layout_marginTop="15dp"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/txtViewSixth"
+        android:text="\nDay 6 Diet Plan Chart:
+        \nBreakfast at 8.30 AM: 1 cup of mixed boiled vegetables and 2 glasses of water.
+        \nMid-Morning Snack at 10.30 AM. : Take 1/2 bowl of boiled red kidney beans. Along with 1 tomato seasoned with a pinch of salt and pepper. And 2 glasses of water.
+        \nLunch at 12.00 Noon : Take 1 bowl of vegetable soup, 1 cup of cooked brown rice. Also, take 2 glasses of water.
+        \nAfternoon Snack at 4.00 PM: Take only 1 apple and a glass of water.
+        \nEvening Snack at 6.30 PM : Take 1 small bowl of sprouted or boiled lentils. And seasoned it with a pinch of salt and lemon juice. Also, take a glass of water.
+        \nDinner at 8.00 PM:Take a bowl of boiled mixed vegetables and a glass of water"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorBlack"
+        />
+
+
+
+
+
+</LinearLayout>
+    </ScrollView>

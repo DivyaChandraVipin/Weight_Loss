@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:textSize="30dp"
+            android:text="Chilli Pepper"
+            android:textStyle="bold"
+            android:id="@+id/txtViewHead"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorBlack"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chilli"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/chilli"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+android:id="@+id/txtViewContent"
+            android:text="It doesn’t just heat up your mouth, the spicy hotness of a chilli pepper also kick-starts your body’s fat burners.Food scientist Heidi Allison, author of The Chili Pepper Diet, found that you can lose 10 times as much weight if you add a sprinkle of dried chillies to your meals.Super low in calories and fat, they help block the body’s absorption of cholesterol."
+            android:textColor="@color/colorBlack"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

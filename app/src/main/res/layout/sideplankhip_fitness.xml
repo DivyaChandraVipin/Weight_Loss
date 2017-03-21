@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="SidePlank"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/txtViewHead"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imgsideplank"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtViewSidePlank"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:text="\n1.Lie on one side with your legs stacked and fully extended.
+\n2.Using your lower elbow and forearm, prop your body up, making sure to keep your abs tight the entire time.
+ \n 3.Your body should form a straight line from shoulders to ankles."/>
+</LinearLayout>
+    </ScrollView>
